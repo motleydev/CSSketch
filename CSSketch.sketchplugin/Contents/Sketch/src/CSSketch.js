@@ -35,7 +35,7 @@ var pluginsPath = @"~/Library/Application Support/com.bohemiancoding.sketch3/Plu
   
   // Load CSSketch
   if (!NSClassFromString("CSKMainController")) {
-    var pluginFolder = [pluginsPath stringByAppendingPathComponent:"CSSKetch.sketchplugin"];
+    var pluginFolder = [pluginsPath stringByAppendingPathComponent:"CSSketch.sketchplugin"];
     var bundlePath = [pluginFolder stringByAppendingPathComponent:"CSSketch Helper.bundle"];
 
     var error = null;
